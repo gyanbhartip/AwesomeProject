@@ -1,12 +1,12 @@
 import { StyleSheet } from 'react-native';
 
 import Screen from './app/components/Screen';
-import AccountScreen from './app/screens/AccountScreen';
+import ListingsEditScreen from './app/screens/ListingsEditScreen';
 
 export default function App() {
   return (
     <Screen style={styles.container}>
-      <AccountScreen />
+      <ListingsEditScreen />
     </Screen>
   );
 }
